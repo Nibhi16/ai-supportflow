@@ -7,7 +7,11 @@ data = {
     "email": "nidhi@example.com",
     "message": "I was charged twice for my subscription and need a refund."
 }
-
+data = {
+    "customer_name" : "Nibhi",
+    "email": "Nibhigarg@gmail.com"
+    
+} 
 response = requests.post(url, json=data)
 
 print("Status:", response.status_code)
